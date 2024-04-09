@@ -1,18 +1,16 @@
 import React, { FormEvent, useState } from 'react'
-import { Navigate, Link, useNavigate } from 'react-router-dom'
+import { Navigate, Link } from 'react-router-dom'
 import { doCreateUserWithEmailAndPassword } from '../../../firebase/auth'
 import { useAuth } from '../../../context/authContext'
 import styles from './Register.module.scss'
 
 const Register = () => {
 
-    const navigate = useNavigate()
-
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setconfirmPassword] = useState('')
     const [isRegistering, setIsRegistering] = useState(false)
-    const [errorMessage, setErrorMessage] = useState('')
+    const [errorMessage, ] = useState('')
     const [user, setUser] = useState('')
 
     const { userLoggedIn } = useAuth()
