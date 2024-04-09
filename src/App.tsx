@@ -39,7 +39,7 @@ function App() {
   let routesElement = useRoutes(routesArray);
   return (
     <AuthProvider>
-      <Header handleSignOut={() => { doSignOut().then(() => { navigate('/login'); window.location.reload(); }) }}/>
+      <Header handleSignOut={() => { doSignOut().then(() => { navigate('/'); window.location.reload(); }) }}/>
       <div className="w-full h-screen flex flex-col">{routesElement}</div>
     </AuthProvider>
   );
