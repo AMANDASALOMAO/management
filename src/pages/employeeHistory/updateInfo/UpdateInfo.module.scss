@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    max-width: 100%;
+}
+.card {
+    display: flex;
+    padding-top: 1rem;
+    gap: 2rem;
+
+    input[type="date"]{
+        height: 1rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.2rem;
+        font-size: 0.725rem;
+    }
+}

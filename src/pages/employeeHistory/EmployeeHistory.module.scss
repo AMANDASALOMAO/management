@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    ul, li {
+        list-style: none;
+
+    }
+}
+
+.list {
+    flex: 1;
+    max-width: 400px; 
+    padding-right: 1rem;
+   
+}
+
+.updatedInfo {
+    flex: 1; 
+    max-width: 400px; 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  rgb(133, 133, 133);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    button {
+        padding: 2rem;
+        height: 1rem;
+    }
+}

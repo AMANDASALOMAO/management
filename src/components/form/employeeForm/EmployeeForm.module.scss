@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+
+    input {
+        width: 300px;
+    }
+    span {
+        font-size: 0.725rem;
+    }
+    input[type="date"]{
+        height: 1rem;
+        padding-top: 2.4rem;
+        padding-bottom: 0.2rem;
+}
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 700px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.userName {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.editImage {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0.725rem;
+}
